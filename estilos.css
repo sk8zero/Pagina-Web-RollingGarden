@@ -142,7 +142,11 @@ footer .contenedor {
   display: inline-block;
 }
 
-.row img {
+.footer a{
+ padding: 0%;
+}
+
+.row a img {
   width: 36px;
   height: 36px;
   padding: 0%;
