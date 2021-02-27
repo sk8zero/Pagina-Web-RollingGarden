@@ -104,3 +104,53 @@ footer .contenedor {
 }
 
 /**/
+
+/**/
+
+.Copyright{
+  text-align: center;
+  background:   #161718   ;
+  color:#fff;
+}
+
+.container-body{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  background: #202020;
+  color:#fff;
+}
+
+.colum2{
+  max-width: 400px;
+  width: 40%;
+  margin-right: 10px;
+  margin: 30px;
+}
+
+.colum2 h2{
+  font-size: 20px;
+}
+
+.colum2 label{
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+.colum2 .row{
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.row img {
+  width: 36px;
+  height: 36px;
+  padding: 0%;
+}
+
+.row label{
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 140px;
+}
+/**/
