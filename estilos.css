@@ -122,14 +122,16 @@ footer .contenedor {
 }
 
 .colum2{
-  max-width: 400px;
-  width: 40%;
+  max-width: 500px;
+  width: 50%;
   margin-right: 10px;
   margin: 30px;
+  text-align: center;
 }
 
 .colum2 h2{
   font-size: 20px;
+  margin: auto;
 }
 
 .colum2 label{
@@ -150,6 +152,7 @@ footer .contenedor {
   width: 36px;
   height: 36px;
   padding: 0%;
+  margin-left: 10px;
 }
 
 .row label{
