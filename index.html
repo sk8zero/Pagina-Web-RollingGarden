@@ -13,6 +13,7 @@
     <!--Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" > </script>
     <title>RollingGarden</title>
   </head>
 
@@ -23,14 +24,14 @@
     <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
     <a class="navbar-brand" href="img/copy.png">
-    <img src="img/copy.png" alt="" width="300" height="60" class="d-inline-block align-top"></a>
+    <img id="logo" src="img/copy.png" alt="" width="300" height="60" class="d-inline-block align-top"></a>
     </div>
     </nav>
   </header>
 
 <section class="box-titulo">
     <div id="titulo">
-        <h1 class="text-center display-1">Trabajos de Jardineria</h1>
+        <h1 id="logo" class="text-center display-1">Trabajos de Jardineria</h1>
     </div>
 </section>
 
@@ -81,7 +82,7 @@
         <div class="card h-100">
           <div class="card-body ">
             <h5 class="card-title">Responsabilidad</h5>
-            <p class="card-text">Trabajamos con responsabilidad y profeccionalismo</p>
+            <p class="card-text">Trabajamos con responsabilidad y profecionalismo</p>
           </div>
         </div>
       </div>
@@ -89,7 +90,7 @@
         <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">Jardineria RollingGarden</h5>
-            <p class="card-text">Trabajamos en Toda la Ciudad de la Costa y Neptunia</p>
+            <p class="card-text">Trabajamos en Toda Ciudad de la Costa y Neptunia</p>
           </div>
         </div>
       </div>
@@ -105,19 +106,8 @@
   </section>
 
 <section>
-  <div id="info-garden">
-    <h2>¿Que hacemos?</h2>
-    <ul>
-    <li>cortes de pasto</li>
-    <li>Podas</li>
-    <li>jardines</li>
-    <li>Se cortan arboles</li>
-    <li>Pozospar apizinas</li>
-    <li>Pequeños movimientos de tierra</li>
-    <li>Limpieza de terrenos</li>
-    <li>Acondicionamiento de terrenos</li>
-  </ul>
-  </div>
+  <img src="img/que hacemos.png" width="100%" alt="">
+
   
 </section>
 
@@ -126,7 +116,7 @@
   <footer>    
     <div class="container-body">
             <div class="colum2">
-            <h2>Contacto</h2>
+            <h3 class="display-6">Contacto</h3>
             <br>
               <div class="row">
                 <a href="https://api.whatsapp.com/send?phone=+598093699917&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20RolingGarden%202."><img src="img/img-iconos/whatsapp.png" alt="icono"></a>
@@ -152,6 +142,9 @@
     <i class="fa fa-whatsapp my-float"></i>
     </a>
     
+    <script>
+      gsap.from("#logo", {duration: 3, x: 300, opacity: 0, scale: 0.5});
+  </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
