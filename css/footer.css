@@ -1,5 +1,4 @@
 /*Footer*/
-/**/
 .container-body {
   display: flex;
   justify-content: center;
@@ -13,13 +12,60 @@
   .container-body {
     flex-wrap: wrap;
   }
-
-  @media screen and(min-width:400px) {
-    .container-body {
-      display: block;
-    }
+  .colum1 {
+    max-width: 300px;
   }
+  .colum2,
+  .colum3 {
+    margin-top: 40px;
+  }
+}
 
+@media screen and(min-width:400px) {
+  .container-body {
+    display: block;
+  }
+}
+
+/*Primera columna del footer*/
+.colum3 h2 {
+  font-size: 20px;
+}
+
+.colum3 p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+
+.colum3 {
+  max-width: 300px;
+  width: 100%;
+  margin-right: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.colum3 label {
+  font-size: 16px;
+  margin-left: 0px;
+  padding-left: 0%;
+}
+
+.colum3 .row-3 {
+  margin-top: 20px;
+  display: inline;
+  width: 100%;
+}
+
+.row-3 a img {
+  width: 36px;
+  height: 36px;
+  padding: 0%;
+  margin-left: 20px;
+}
+
+/*Segunda columna del footer*/
 .colum2 {
   max-width: 300px;
   width: 100%;
@@ -36,50 +82,37 @@
 .colum2 label {
   font-size: 16px;
   margin-left: 0px;
-  padding-left: 0%
+  padding-left: 0%;
 }
 
-.colum2 .row {
+.colum2 .row-2 {
   margin-top: 20px;
   display: inline;
   width: 100%;
 }
 
-.colum2 .row.wpp {
-  margin-top: 20px;
-  display: inline;
-  width: 50%;
-}
- .colum2 .row.wpp a{
-   padding: 0
- }
 .footer a {
   padding: 0%;
   margin: 0;
 }
 
-.row a img {
+.row-2 a img {
   width: 36px;
   height: 36px;
   padding: 0%;
   margin-left: 20px;
 }
 
-.row label {
-  margin-top: 10px;
-  max-width: 150px;
-}
-
 .Copyright {
   text-align: center;
   background: #161718;
   color: #fff;
-  height: 80px;
+  height: 70px;
   padding: 25px;
 }
 
-.Copyright p{
-  font-size: 20px;
-  color: #7B7D7D;
+.Copyright p {
+  font-size: 16px;
+  color: #7b7d7d;
+  width: 100%;
 }
-
