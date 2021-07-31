@@ -57,7 +57,7 @@
 }
 
 .service-a {
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   margin-right: 10px;
   margin: 30px;
@@ -65,7 +65,7 @@
 }
 
 .service-a label {
-  font-size: 26px;
+  font-size: 22px;
   margin-left: 10px;
   padding-left: 0%;
 }
@@ -99,7 +99,7 @@
 }
 
 .service-b label {
-  font-size: 26px;
+  font-size: 20px;
   margin-left: 0px;
   padding-left: 0%;
 }
