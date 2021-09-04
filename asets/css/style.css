@@ -1,0 +1,164 @@
+/*  Styles */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|typicons);
+[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+/*Tamaño maximo de los elementos*/
+header,
+.all-body,
+footer,
+section {
+  max-width: 1366px;
+  margin: auto;
+}
+/* ARTICULO 1 */
+.carrusel{
+  max-height: 500px;
+}
+/**/
+
+/* Articulo 2*/
+.container-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #fff;
+  color: #202020;
+}
+
+.box-info {
+  max-width: 400px;
+  width: 100%;
+  margin-right: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.box-info h2 {
+  font-size: 20px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1366px) {
+  .container-info {
+    flex-wrap: wrap;
+  }
+
+  @media screen and(min-width:400px) {
+    .container-info {
+      display: block;
+    }
+  }
+/**/
+
+/* SERVICIOS */
+/* ARTICULO 3 */
+
+#info {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.container-service {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #fdfefe;
+  color: #333;
+}
+
+/*Responsive disaing*/
+@media screen and (max-width: 1100px) {
+  .container-service {
+    flex-wrap: wrap;
+  }
+  .service-a,
+  .service-b {
+    margin-top: 40px;
+  }
+}
+
+@media screen and(min-width:400px) {
+  .container-service {
+    display: block;
+  }
+}
+
+/*Primera columna*/
+.service-a h2 {
+  font-size: 20px;
+}
+
+.service-a p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+
+.service-a {
+  max-width: 300px;
+  width: 100%;
+  margin-right: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.service-a label {
+  font-size: 22px;
+  margin-left: 10px;
+  padding-left: 0%;
+}
+
+.service-a .service-3 {
+  margin-top: 20px;
+  display: inline;
+  width: 100%;
+}
+
+.service-3 a img {
+  width: 56px;
+  height: 56px;
+  padding: 0%;
+  margin-left: 30px;
+  margin: 10px;
+}
+
+/*Segunda columna*/
+.service-b {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.service-b h2 {
+  font-size: 20px;
+  margin: auto;
+}
+
+.service-b label {
+  font-size: 20px;
+  margin-left: 0px;
+  padding-left: 0%;
+}
+
+.service-b .service-2 {
+  margin-top: 20px;
+  display: inline;
+  width: 100%;
+}
+
+.service-b img {
+  width: 100%;
+  height: 600px;
+  padding: 0%;
+}
+
+/**/

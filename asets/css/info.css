@@ -1,10 +1,4 @@
 /**/
-#info {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
 
 .info-box-one
 /**/ {
@@ -28,39 +22,3 @@
 #ojas {
   width: 100%;
 }
-
-
-.container-info {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background: #fff;
-  color: #202020;
-}
-
-.box-info {
-  max-width: 400px;
-  width: 100%;
-  margin-right: 10px;
-  margin: 10px;
-  text-align: center;
-  padding: 30px 0px 0px 0px;
-}
-
-.box-info h2 {
-  font-size: 20px;
-  margin: auto;
-}
-
-@media screen and (max-width: 1100px) {
-  .container-info {
-    flex-wrap: wrap;
-  }
-
-  @media screen and(min-width:400px) {
-    .container-info {
-      display: block;
-    }
-  }
-
-  
