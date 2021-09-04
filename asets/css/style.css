@@ -6,6 +6,7 @@
 }
 
 /*Tamaño maximo de los elementos*/
+
 header,
 .all-body,
 footer,
@@ -14,12 +15,17 @@ section {
   margin: auto;
 }
 /* ARTICULO 1 */
+
 .carrusel{
   max-height: 500px;
 }
+
+
+
 /**/
 
 /* Articulo 2*/
+
 .container-info {
   display: flex;
   justify-content: center;
