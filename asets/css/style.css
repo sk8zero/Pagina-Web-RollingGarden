@@ -5,27 +5,19 @@
 }
 
 /*Variables de colores CSS*/
-:root{
-  --Color-principal: #138D75;
+:root {
+  --Color-principal: #138d75;
 }
 
 /*Tamaño maximo de los elementos*/
 
-header,
-.all-body,
-footer,
-section {
-  max-width: 100%;
-  margin: auto;
-}
 /* ARTICULO 1 */
 
-.carrusel{
+.carrusel {
   max-height: 600px;
 }
 
-
-.linea{
+.linea {
   border-top: 5px solid var(--Color-principal);
   margin-bottom: 20px;
 }
@@ -66,35 +58,86 @@ section {
       display: block;
     }
   }
-/**/
+  /**/
 
-/* SERVICIOS */
-/* ARTICULO 3 */
+  /* SERVICIOS */
+  /* ARTICULO 3 */
 
-#info {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
- 
+  #info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .container-service {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #fdfefe;
+    color: #333;
+  }
+
+  /*Primera columna*/
+  .service {
+    max-width: 300px;
+    width: 100%;
+    margin-right: 10px;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .service h2 {
+    font-size: 20px;
+  }
+
+  .service p {
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+  }
+
+  .service label {
+    font-size: 22px;
+    margin-left: 10px;
+    padding-left: 0%;
+  }
+
+  .service .colum-service {
+    margin-top: 20px;
+    display: inline;
+    width: 100%;
+  }
+
+  .colum-service a img {
+    width: 56px;
+    height: 56px;
+    padding: 0%;
+    margin-left: 30px;
+    margin: 10px;
+  }
+
+  /*Segunda columna*/
+  .service-img {
+    max-width: 600px;
+    width: 100%;
+    margin-right: 10px;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .service-img img {
+    width: 100%;
+    height: 500px;
+    padding: 0%;
+  }
+
+  /*Responsive disaing*/
 }
-
-.container-service {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background: #fdfefe;
-  color: #333;
-}
-
-/*Responsive disaing*/
 @media screen and (max-width: 1366px) {
   .container-service {
     flex-wrap: wrap;
-  }
-  .service-a,
-  .service-b {
-    margin-top: 40px;
   }
 }
 
@@ -102,75 +145,4 @@ section {
   .container-service {
     display: block;
   }
-}
-
-/*Primera columna*/
-.service-a h2 {
-  font-size: 20px;
-}
-
-.service-a p {
-  font-size: 14px;
-  color: #c7c7c7;
-  margin-top: 20px;
-}
-
-.service-a {
-  max-width: 300px;
-  width: 100%;
-  margin-right: 10px;
-  margin: 30px;
-  text-align: center;
-}
-
-.service-a label {
-  font-size: 22px;
-  margin-left: 10px;
-  padding-left: 0%;
-}
-
-.service-a .service-3 {
-  margin-top: 20px;
-  display: inline;
-  width: 100%;
-}
-
-.service-3 a img {
-  width: 56px;
-  height: 56px;
-  padding: 0%;
-  margin-left: 30px;
-  margin: 10px;
-}
-
-/*Segunda columna*/
-.service-b {
-  max-width: 500px;
-  width: 100%;
-  margin-right: 10px;
-  margin: 30px;
-  text-align: center;
-}
-
-.service-b h2 {
-  font-size: 20px;
-  margin: auto;
-}
-
-.service-b label {
-  font-size: 20px;
-  margin-left: 0px;
-  padding-left: 0%;
-}
-
-.service-b .service-2 {
-  margin-top: 20px;
-  display: inline;
-  width: 100%;
-}
-
-.service-b img {
-  width: 100%;
-  height: 500px;
-  padding: 0%;
 }
