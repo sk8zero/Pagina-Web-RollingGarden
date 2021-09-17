@@ -15,13 +15,13 @@ header,
 .all-body,
 footer,
 section {
-  max-width: 1366px;
+  max-width: 100%;
   margin: auto;
 }
 /* ARTICULO 1 */
 
 .carrusel{
-  max-height: 550px;
+  max-height: 600px;
 }
 
 
