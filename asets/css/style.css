@@ -1,8 +1,12 @@
 /*  Styles */
-
 @import url(http://weloveiconfonts.com/api/?family=fontawesome|typicons);
 [class*="fontawesome-"]:before {
   font-family: "FontAwesome", sans-serif;
+}
+
+/*Variables de colores CSS*/
+:root{
+  --Color-principal: #138D75;
 }
 
 /*Tamaño maximo de los elementos*/
@@ -22,7 +26,7 @@ section {
 
 
 .linea{
-  border-top: 5px solid #16A085;
+  border-top: 5px solid var(--Color-principal);
   margin-bottom: 20px;
 }
 
@@ -170,5 +174,3 @@ section {
   height: 500px;
   padding: 0%;
 }
-
-/**/
